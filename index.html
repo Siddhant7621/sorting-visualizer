@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sort</title>
-    <link rel="icon" href="img.jpg">
+    <title>
+        Sorting Visualizer
+    </title>
+    <link rel="icon" href="img.jpg" />
 </head>
 <body>
-    <h1><a href="https://github.com/Siddhant7621/Sorting_Visualizer.git">Sorting Visualizer</a></h1>
-    <button id="newarr">New Array</button>
-    <span style ="font-size: large; color: wheat;">
+    <h1><a href="https://siddhant7621.github.io/Sorting_Visualizer/" target="_blank">Sorting Visualizer</a></h1>
+    <button id="newarr">New array</button>
+    <span style="font-size: large; color: white;">
         Size:<input id="sizer" type="range" min=20 max=100 step=1 value=60>
     </span>
-    <span>
-        Speed: <input id="speed" type="range" min=10 max=240 step=1 value="100">
+    <span style="font-size: large; color: white;">
+        Speed:<input id="speed" type="range" min=10 max=240 step=1 value=100>
     </span>
     <button id="bubble">Bubble Sort</button>
-    <button id="bubble">Selection Sort</button>
-    <button id="bubble">Insertion Sort</button>
-    <button id="bubble">Merge Sort</button>
-    <button id="bubble">Quick Sort</button>
+    <button id="selection">Selection Sort</button>
+    <button id="insertion">Insertion Sort</button>
+    <button id="merge">Merge Sort</button>
+    <button id="quick">Quick Sort</button>
 
     <div id="bar"></div>
+
+
     <script src="scripts/sorting.js"></script>
     <script src="scripts/bubble.js"></script>
     <script src="scripts/selection.js"></script>
@@ -30,4 +31,5 @@
     <script src="scripts/merge.js"></script>
     <script src="scripts/quick.js"></script>
 </body>
+
 </html>
